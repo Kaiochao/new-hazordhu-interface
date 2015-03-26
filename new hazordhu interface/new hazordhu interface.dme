@@ -1,0 +1,29 @@
+// DM Environment file for new hazordhu interface.dme.
+// All manual changes should be made outside the BEGIN_ and END_ blocks.
+// New source code should be placed in .dm files: choose File/New --> Code File.
+
+// BEGIN_INTERNALS
+// END_INTERNALS
+
+// BEGIN_FILE_DIR
+#define FILE_DIR .
+// END_FILE_DIR
+
+// BEGIN_PREFERENCES
+#define DEBUG
+// END_PREFERENCES
+
+// BEGIN_INCLUDE
+#include "event handler.dm"
+#include "new hazordhu interface.dm"
+#include "tools.dm"
+#include "types.dm"
+#include "ui\_events.dm"
+#include "ui\inventory.dm"
+#include "ui\item_slot.dm"
+#include "ui\tool.dm"
+#include "ui\toolbelt.dm"
+#include "ui\ui.dm"
+#include "ui\ui_part.dm"
+// END_INCLUDE
+
